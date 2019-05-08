@@ -18,7 +18,7 @@ public class ExtractWords {
         {
             int i;
             st=s.split(" ");
-            for(i=0;i<(st.length)-1;i++)
+            for(i=0;i<(st.length)-1; i++)
             {
                 for(int j=0;j<(st.length)-1;j++)
                 {
@@ -30,7 +30,6 @@ public class ExtractWords {
                     }
                 }
             }
-
         }
         void display()
         {

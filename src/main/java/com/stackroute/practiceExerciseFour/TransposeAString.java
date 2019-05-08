@@ -25,6 +25,7 @@ public class TransposeAString {
             Scanner str=new Scanner(System.in);
             System.out.println("Enter the string:");
             String inputString=str.nextLine();
+
             TransposeAString transposeAString = new TransposeAString();
             transposeAString.reverseWordInMyString(inputString);
         }

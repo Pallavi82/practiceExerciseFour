@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class PresenceOfWord {
 
         public static void main(String[] args) {
-            boolean contains = false;
 
             Scanner scanner = new Scanner(System.in);
 
@@ -21,7 +20,6 @@ public class PresenceOfWord {
             String[] str1 = s1.split(" ");
 
             if(s.contains(s1)){
-                contains = true;
 
                 System.out.println("is " + s1 +" here? True");
             }
