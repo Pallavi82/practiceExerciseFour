@@ -1,4 +1,8 @@
-package com.stackroute.practiceExerciseFour;
+package com.stackroute.pefour;
+
+/*Write a program to transpose the given string.
+Input String : a quick brown fox jumps over the lazy dog
+Output String: a kciuq nworb xof spmuj revo eht yzal god*/
 
 import java.util.Scanner;
 
@@ -20,6 +24,7 @@ public class TransposeAString {
             }
             System.out.println(reversedString);
         }
+
         public static void main(String[] args)
         {
             Scanner str=new Scanner(System.in);
@@ -29,5 +34,5 @@ public class TransposeAString {
             TransposeAString transposeAString = new TransposeAString();
             transposeAString.reverseWordInMyString(inputString);
         }
-    }
+}
 

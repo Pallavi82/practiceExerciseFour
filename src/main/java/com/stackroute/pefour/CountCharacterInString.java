@@ -1,4 +1,8 @@
-package com.stackroute.practiceExerciseFour;
+package com.stackroute.pefour;
+
+/*Write a java program to count the total number of occurrences of a given character in a string
+without using any loop?
+For Example- Java is java again java again count number of occurrence of a in the given string*/
 
 import java.util.*;
 
@@ -21,4 +25,4 @@ public class CountCharacterInString {
             int charcount = InputString.length() - InputString.replaceAll(InputCharacter, "").length();
             System.out.println("Occurrence Of specific character in String: " + charcount);
         }
-    }
+}

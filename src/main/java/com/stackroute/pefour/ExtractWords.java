@@ -1,4 +1,8 @@
-package com.stackroute.practiceExerciseFour;
+package com.stackroute.pefour;
+
+/*Write a program that sets up a String variable containing a paragraph of text of your choice.
+a. Extract the words from the text and sort them into alphabetical order.
+b. Display the sorted list of words.*/
 
 import java.util.Scanner;
 
@@ -34,6 +38,7 @@ public class ExtractWords {
         void display()
         {
             System.out.println("Sorted Array");
+
             for(int i=0;i<(st.length);i++)
             {
                 System.out.println(st[i]);
@@ -51,4 +56,4 @@ public class ExtractWords {
             extractWords.splitsort();
             extractWords.display();
         }
-    }
+}

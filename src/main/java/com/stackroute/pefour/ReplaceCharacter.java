@@ -1,4 +1,10 @@
-package com.stackroute.practiceExerciseFour;
+package com.stackroute.pefour;
+
+/*Write a program to replace all d with f and all l with t in the given String
+Input: daily dry
+Output: faity fry
+Original string: daily dry
+New String: faity fry*/
 
 import java.util.Scanner;
 
@@ -16,4 +22,4 @@ public class ReplaceCharacter {
 
             System.out.println("Output String after replacing d with f and l with t:\n " + outputString);
         }
-    }
+}
