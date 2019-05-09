@@ -17,14 +17,14 @@ public class OccurencesOfAWord {
 
         public static void main(String args[]){
 
-            String sea = "She sells seashells by the seashore";
+            String sea = "She sells seashells by the seashore"; // string input as given in the question
 
-            Pattern pattern = Pattern.compile("sea");
-            Matcher matcher = pattern.matcher(sea);
+            Pattern pattern = Pattern.compile("sea"); //compiles to check "sea" is to be checked
+            Matcher matcher = pattern.matcher(sea);  //matcher hepls to search the pattern to be checked in the string
 
             int count = 0;
 
-            while (matcher.find()) {
+            while (matcher.find()) { //will display the position where the searched word is found
 
                 count++;
 

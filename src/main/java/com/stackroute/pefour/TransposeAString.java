@@ -18,11 +18,11 @@ public class TransposeAString {
                 String reverseWord = "";
                 for (int j = word.length()-1; j >= 0; j--)
                 {
-                    reverseWord = reverseWord + word.charAt(j);
+                    reverseWord = reverseWord + word.charAt(j); // reverses the individual word
                 }
-                reversedString = reversedString + reverseWord + " ";
+                reversedString = reversedString + reverseWord + " "; //together forms the reversedwords into the string
             }
-            System.out.println(reversedString);
+            System.out.println(reversedString); //displays reversed string
         }
 
         public static void main(String[] args)

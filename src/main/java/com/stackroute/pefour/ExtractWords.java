@@ -18,7 +18,7 @@ public class ExtractWords {
             s=str;
         }
 
-        void splitsort()
+        void splitsort() //method to split the string with spaces and then to sort them accordingly
         {
             int i;
             st=s.split(" ");
@@ -35,7 +35,7 @@ public class ExtractWords {
                 }
             }
         }
-        void display()
+        void display() //method to display the sorted array
         {
             System.out.println("Sorted Array");
 

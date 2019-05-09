@@ -17,8 +17,8 @@ public class ReplaceCharacter {
             System.out.println("Enter the InputString:");
 
             String InputString=str.nextLine();
-            String str1=InputString.replaceAll("d", "f");
-            String outputString=str1.replaceAll("l", "t");
+            String str1=InputString.replaceAll("d", "f"); // replaces d with f
+            String outputString=str1.replaceAll("l", "t"); // replaces l with t
 
             System.out.println("Output String after replacing d with f and l with t:\n " + outputString);
         }
